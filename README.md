@@ -1,6 +1,6 @@
 # Search_bar
 
-A new Flutter Search Bar application.
+A new Flutter Search Bar and Navigation Drawer Application.
 
 ## Getting Started
 
