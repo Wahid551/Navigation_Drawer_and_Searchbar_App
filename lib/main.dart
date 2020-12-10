@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Drawerfile.dart';
 
 void main() {
   runApp(MyApp());
@@ -32,12 +33,12 @@ class _InputpageState extends State<Inputpage> {
     return Scaffold(
       appBar: AppBar(
         titleSpacing: 20.0,
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Colors.cyanAccent.shade700,
 
-        leading: IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.add),
-        ),
+        // leading: IconButton(
+        //   onPressed: () {},
+        //   icon: Icon(Icons.add),
+        // ),
         actions: [
           IconButton(
             onPressed: () {
@@ -64,10 +65,10 @@ class _InputpageState extends State<Inputpage> {
             },
             icon: cusicon,
           ),
-          IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.more_vert),
-          ),
+          // IconButton(
+          //   onPressed: () {},
+          //   icon: Icon(Icons.more_vert),
+          // ),
         ],
         title: cusSearchbar,
 
@@ -76,6 +77,12 @@ class _InputpageState extends State<Inputpage> {
         //   preferredSize: Size(10.0, 80.0),
         //   child: Container(),
         // ),
+      ),
+      drawer: Mydrawer(),
+      body: Center(
+        child: FlutterLogo(
+          size: 150.0,
+        ),
       ),
     );
   }
