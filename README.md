@@ -16,7 +16,7 @@ A few resources to get you started if this is your first Flutter project:
 
 ## Gif Vedio
 
-<img src='https://user-images.githubusercontent.com/73393935/101727303-0e2a5600-3ad6-11eb-8369-6adbae2f8ec9.gif' width=280/>      <img src='https://user-images.githubusercontent.com/73393935/101241534-b62bd200-3718-11eb-9025-b349cc085485.gif' width=2800 />
+<img src='https://user-images.githubusercontent.com/73393935/101727303-0e2a5600-3ad6-11eb-8369-6adbae2f8ec9.gif' width=280/>      <img src='https://user-images.githubusercontent.com/73393935/101241534-b62bd200-3718-11eb-9025-b349cc085485.gif' width=280 />
 
 
 
